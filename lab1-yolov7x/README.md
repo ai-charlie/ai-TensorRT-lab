@@ -5,6 +5,8 @@
 
 ```
 git clone https://github.com/WongKinYiu/yolov7.git
+git clone https://github.com/Linaom1214/tensorrt-python.git
+git clone https://github.com/Linaom1214/TensorRT-For-YOLO-Series.git
 ```
 
 ## env build
