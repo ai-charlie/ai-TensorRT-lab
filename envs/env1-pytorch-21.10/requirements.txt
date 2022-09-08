@@ -1,0 +1,28 @@
+onnx==1.10.2; python_version<"3.10"
+onnx==1.12.0; python_version=="3.10"
+# tensorflow-gpu==2.9.1; (platform_machine=="x86_64" and sys.platform=="linux")
+onnxruntime==1.8.1; python_version<"3.10"
+onnxruntime==1.12.1; python_version=="3.10"
+#-f https://download.pytorch.org/whl/cu113/torch_stable.html
+#torch==1.10.2+cu113; python_version<"3.10"
+#torch==1.11.0+cu113; python_version=="3.10"
+#torchvision==0.11.3; python_version<"3.10"
+#torchvision==0.12.0; python_version=="3.10"
+
+nvidia-pyindex --index-url https://pypi.ngc.nvidia.com
+onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
+#polygraphy
+cuda-python
+opencv-python-headless==3.4.16.59
+colored
+#scipy
+
+pandas
+seaborn
+#tqdm
+#scikit-learn
+scikit-image
+#Pillow
+#numpy
+#pytest
+#tf2onnx                 # 用于 TensorFlow 的 .pb 转 .onnx
