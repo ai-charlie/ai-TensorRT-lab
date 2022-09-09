@@ -48,19 +48,6 @@ https://github.com/NVIDIA/trt-samples-for-hackathon-cn/tree/master/cookbook//01-
 - 推荐：
   1. [tensorrtx](https://github.com/wang-xinyu/tensorrtx)
   2. https://github.com/NVIDIA/trt-samples-for-hackathon-cn/tree/master/cookbook/03-APIModel
-    - 
-
-
-## 开发辅助工具
-- netron
-  > 使用netron工具查看网络架构以及网络的输入输出形状，在线的netron网址如下：
-    ```
-    https://netron.app/
-    ```
-- 
-
-- onnx-graphsurgeon
-
 
 ## 插件编写
 
