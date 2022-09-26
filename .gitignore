@@ -1,10 +1,10 @@
 bash/*.zip
 
-data/*
+
 
 lab1-yolov7x/yolov7
 lab1-yolov7x/tensorrt-python
-lab1-yolov7x/TensorRT-For-YOLO-Series
+# lab1-yolov7x/TensorRT-For-YOLO-Series
 
 lab2-sgdn/tensorRT_SGDN
 

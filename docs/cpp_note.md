@@ -17,3 +17,18 @@
 -   `%e（或%E）`以指数形式输出实数；
 -   `%p` 以十六进制输出指针、地址；
 -   `%g` 表示输出`%f%e`中较短的宽度输出实数，在指数小于-4或大于等于精度时使用%e。
+
+## assert 
+```cpp
+assert(expr)
+```
+首先对expr求值，如果表达式为假（即0），assert输出信息并终止程序的执行。如果表达式为真（即非0），assert什么也不做。
+
+## template
+
+在模板定义时的class和typename是没有区别的，因为最初发明模板时决定使用class以减少一个关键字，但后来发现还是不得不加上typename关键字。所以，模板定义时class和typename是一样的。class可以用来定义类，也可用作模板参数类型，而typename只能用作参数类型。
+
+```cpp
+template<class T> class Widget; // uses "class"
+template<typename T> class Widget; // uses "typename"
+```
