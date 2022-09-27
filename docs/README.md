@@ -2,14 +2,17 @@
 
 ```bash
 	git clone -b master https://github.com/nvidia/TensorRT TensorRT
+	# git@github.com:nvidia/TensorRT.git
 	cd TensorRT
 	git submodule update --init --recursive
 ```
 
 ```bash
 git clone https://github.com/NVIDIA/trt-samples-for-hackathon-cn
+# git@github.com:NVIDIA/trt-samples-for-hackathon-cn.git
 
 git clone https://github.com/pytorch/TensorRT Torch-TensorRT
+# git@github.com:pytorch/TensorRT.git Torch-TensorRT
 ```
 
 ## Resources
