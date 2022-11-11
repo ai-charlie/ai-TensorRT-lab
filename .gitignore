@@ -1,7 +1,5 @@
 bash/*.zip
 
-
-
 lab1-yolov7x/yolov7
 lab1-yolov7x/tensorrt-python
 # lab1-yolov7x/TensorRT-For-YOLO-Series
@@ -12,17 +10,16 @@ lab3-retinanet/retinanet-examples
 
 lab4-face/arcface_torch
 
+3rd_repo/
 
-docs/TensorRT
-docs/Torch-TensorRT
-docs/trt-samples-for-hackathon-cn
+# *.onnx
+# *.pt
+# *.ptl
+# *.plan
+# *.trt
+# *.tar
+# *.pth
 
-*.onnx
-*.pt
-*.ptl
-*.plan
-*.trt
-*.tar
 
 __pycache__
 .vscode
